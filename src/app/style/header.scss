@@ -1,0 +1,72 @@
+.header {
+  padding-top: 27px;
+  padding-bottom: 17px;
+  z-index: 99;
+
+  .btn-login {
+    width: 124px;
+    height: 37px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .header {
+    height: 101px;
+    background-image: url("../../../public/assets/png/topbar-mobile.png");
+    padding-left: 15px;
+    padding-right: 15px;
+
+    .header-menu {
+      display: none;
+    }
+
+    .btn-login {
+      display: none;
+    }
+
+    .header-mobile-menu {
+      display: flex;
+      .mobile-menu-item {
+        left: 0;
+        top: 15px;
+        height: calc(100% - 15px);
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .header {
+    height: 81px;
+    background-image: url("../../../public/assets/png/topbar-tablet.png");
+    padding-left: 40px;
+    padding-right: 40px;
+
+    .menu-link {
+      font-size: 10px;
+    }
+
+    .img-logo {
+      height: 39px;
+      width: 127px;
+    }
+
+    .btn-login {
+      font-size: 10px;
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .header {
+    height: 101px;
+    background-image: url("../../../public/assets/png/topbar-desktop.png");
+    padding-left: 111px;
+    padding-right: 111px;
+
+    .img-logo {
+      height: 56px;
+      width: 221px;
+    }
+  }
+}

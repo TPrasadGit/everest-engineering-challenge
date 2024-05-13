@@ -1,0 +1,240 @@
+.main-section {
+  padding-bottom: 60px;
+  .section-index {
+    font-family: Roboto;
+    font-size: 220px;
+    font-weight: 400;
+    z-index: 3;
+  }
+  .title-section {
+    padding: 40px 0;
+
+    h3 {
+      font-size: 48px;
+      line-height: 56px;
+    }
+
+    img {
+      width: 260px;
+      max-width: 260px;
+    }
+  }
+
+  .btn-work-section {
+    width: 284px;
+    height: 61px;
+  }
+}
+
+@media only screen and (min-width: 320px) and (max-width: 767px) {
+  .main-section {
+    .section-content {
+      margin: auto;
+      max-width: 360px;
+      padding: 40px 0;
+
+      &.odd-section {
+        .section-index {
+          margin-left: -140px;
+          margin-top: -40px;
+        }
+      }
+
+      &.even-section {
+        margin-top: 125px;
+        .section-index {
+          margin-left: -140px;
+          margin-top: -240px;
+        }
+      }
+
+      .image-content {
+        .img-main {
+          width: 323px;
+          max-width: 323px;
+        }
+      }
+
+      .text-content {
+        padding: 30px;
+        align-items: flex-start;
+
+        h3 {
+          font-size: 32px;
+          line-height: 36px;
+          margin-bottom: 20px;
+          max-width: 285px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: 0.65px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1279px) {
+  .main-section {
+    .section-content {
+      margin: 0 auto 40px;
+      max-width: 760px;
+      padding: 40px;
+
+      &.odd-section {
+        .section-index {
+          margin-left: -15px;
+          margin-top: -195px;
+        }
+      }
+
+      &.even-section {
+        flex-direction: column;
+        max-width: 355px;
+        overflow: hidden;
+        align-self: flex-end;
+        margin: auto;
+        margin-left: 50%;
+        margin-top: 225px;
+        padding: 0;
+
+        .section-index {
+          margin-left: -300px;
+          margin-top: -219px;
+        }
+
+        .image-content {
+          .img-main {
+            position: absolute;
+            z-index: 2;
+            width: 320px;
+            margin-top: -225px;
+            margin-left: -250px;
+          }
+
+          .img-background {
+            position: absolute;
+            z-index: 1;
+            width: 244px;
+            margin-top: -280px;
+            margin-left: -115px;
+          }
+        }
+
+        .text-content {
+          padding: 0;
+
+          h3 {
+            max-width: 200px;
+          }
+        }
+      }
+
+      .image-content {
+        .img-main {
+          &.img-primary {
+            width: 260px;
+            max-width: 260px;
+          }
+        }
+      }
+
+      .text-content {
+        padding: 0 50px;
+        align-items: flex-start;
+
+        h3 {
+          font-size: 32px;
+          line-height: 36px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 14px;
+          line-height: 17px;
+          letter-spacing: 0.65px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1280px) {
+  .main-section {
+    .section-content {
+      margin: 0 auto 40px;
+      max-width: 965px;
+      padding: 40px;
+
+      &.odd-section {
+        .section-index {
+          margin-left: -15px;
+          margin-top: -195px;
+        }
+      }
+
+      &.even-section {
+        flex-direction: column;
+        max-width: 38%;
+        align-self: flex-end;
+        margin-left: 42%;
+        margin-top: 180px;
+
+        .section-index {
+          margin-left: -300px;
+          margin-top: -215px;
+        }
+
+        .image-content {
+          .img-main {
+            position: absolute;
+            z-index: 2;
+            width: 370px;
+            margin-top: -250px;
+            margin-left: -260px;
+
+            &.img-primary {
+              width: 800px;
+              max-width: 800px;
+            }
+          }
+          .img-background {
+            position: absolute;
+            z-index: 1;
+            width: 270px;
+            margin-top: -300px;
+            margin-left: -90px;
+          }
+        }
+      }
+
+      .image-content {
+        .img-main {
+          &.img-primary {
+            width: 323px;
+            max-width: 323px;
+          }
+        }
+      }
+
+      .text-content {
+        padding: 0 50px;
+        align-items: flex-start;
+
+        h3 {
+          font-size: 36px;
+          line-height: 44px;
+          margin-bottom: 20px;
+        }
+
+        p {
+          font-size: 18px;
+          line-height: 21px;
+          letter-spacing: 0.75px;
+        }
+      }
+    }
+  }
+}

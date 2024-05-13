@@ -8,10 +8,10 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      fontFamily: {
+        roboto : 'Roboto, Calibri, Arial, Helvetica, sans-serif', // Creates a css class 'font-roboto'. Used for all text.
+        dmserif: 'DM Serif Text',
+        dmsans: 'DM Sans',
       },
     },
   },
